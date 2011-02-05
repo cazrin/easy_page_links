@@ -1,0 +1,19 @@
+h1. Easy Page Links
+
+An Accessory for "ExpressionEngine 2":http://expressionengine.com which extends the functionality of the default link HTML format button. The link button will open a modal window which lists the current pages from the Pages module and also has a text input field for custom URLs.
+
+h2. Requirements
+
+* ExpressionEngine 2.1.2 or later
+* jQuery Module
+* Pages Module for page listings
+
+h2. Installation
+
+# Upload the *easy_page_links* folder to */ee installation folder/system/expressionengine/third_party*
+# Enable Easy Page Links in Add-Ons &rarr; Accessories
+# Optionally you may wish to disable this accessory on all pages except Content Edit &amp; Publish as it will only function on those pages
+
+h2. Usage
+
+Just click on the standard link HTML format button to see the window pop up.  Can also be triggered by pressing Ctrl + A.
