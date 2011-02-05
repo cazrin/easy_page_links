@@ -16,4 +16,4 @@ h2. Installation
 
 h2. Usage
 
-Just click on the standard link HTML format button to see the window pop up.  Can also be triggered by pressing Ctrl + A.
+Just click on the standard link HTML formatting button to see the window pop up.  Can also be triggered by pressing Ctrl + A.
