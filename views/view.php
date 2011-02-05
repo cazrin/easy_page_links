@@ -77,7 +77,7 @@ if(isset($pages) && count($pages) != 0)
 		$this->table->add_row($page['indent'] . '<a href="' . $page['page'] . '">' . $page['title'] . '</a>');
 	}
 
-	$this->table->generate();
+	echo $this->table->generate();
 }
 
 ?>

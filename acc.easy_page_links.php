@@ -13,15 +13,16 @@ class Easy_page_links_acc
 	{
 		$this->EE =& get_instance();
 		$this->EE->load->library('table');
-		$this->vars['id'] = $this->id;
 	}
 	
 	function update_extension() { return TRUE; }
 	
 	function set_sections()
 	{
-		$this->vars[] = $this->pages_array();
-		$this->sections['Easy Page Links'] = $this->EE->load->view('view', $this->vars, TRUE);
+		$vars = $this->pages_array();
+		$vars['id'] = $this->id;
+
+		$this->sections['Easy Page Links'] = $this->EE->load->view('view', $vars, TRUE);
 	}
 	
 	// Taken from Pages module and modified slightly (mainly removing unrequired data)
